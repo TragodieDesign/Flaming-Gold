@@ -1,0 +1,27 @@
+.button{
+    padding: 1em;
+    background-color: var(--dark);
+    color:var(--light);
+    cursor: pointer;
+    border: none;
+    font-family: 'Bebas Neue';
+    font-size: 2em;
+    text-decoration: none;  
+    text-align: center;
+    /* topo | direita | inferior | esquerda */ 
+    margin: 1em 0 1em 0;
+    width: 200px
+}
+.button:hover{
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+h2{
+    font-family: 'Bebas Neue';
+    font-size: 4em;
+}
+h3{
+    font-family: 'Bebas Neue';
+    font-size: 3em;
+}

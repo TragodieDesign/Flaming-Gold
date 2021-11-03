@@ -1,0 +1,150 @@
+:root{
+    font-family: 'Bebas Neue';
+    --dark:#212529;
+    --light:#eeeeec;
+
+}
+body{
+    background: linear-gradient( 90deg,#212529,#1d1c1c,#2c2222,#2c2222);
+    color: var(--light);
+}
+
+
+/*HEADER*/
+
+.nav-menu{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items:center;
+    list-style: none;
+    
+}
+.logo{
+    cursor: pointer;
+    padding: 1em 2em 1em 2em;
+
+}
+.menu{
+    color: var(--light);
+    font-family: 'Bebas Neue';
+    font-size:2em;
+    cursor: pointer;
+    padding:0 0.5em 0 0.5em ;
+    text-align:center;
+}
+.menu:hover{
+    color:var(--dark);
+    background: var(--light);
+    transition:0.3s
+}
+/*HEADER*/
+
+/*BANNER*/
+.banner{
+    margin-top: 4em;
+display: flex;
+flex-wrap: wrap;
+justify-content:center;
+}
+/*BANNER*/
+
+/*CALL-TO-ACTION*/
+.text-cta{
+    color: var(--light);
+    padding-left: 1em;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-cta h1{
+    font-family: 'Bebas Neue';
+    font-size: 5em;
+    color:var(--light);
+}
+.text-cta p{
+    text-align: justify;
+    font-family: 'Sans-serif';
+    font-size: 1em;
+    color:var(--light);
+}
+/*CALL-TO-ACTION*/
+
+/*RECIPES*/
+.rec{
+    height:100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-to-recipes{
+    background-color: rgba(185, 185, 185, 0.788);
+    text-align: left;
+    padding: 2em 2em 5em 2em;
+    margin: 1em 14em 0 0;  
+}
+.text-to-recipes p{
+    text-align: justify;
+    font-size: 1em;
+    background-color: rgba(34, 34, 34, 0);
+    margin-bottom: 3em;
+    color: rgb(34, 34, 34);
+}
+/*RECIPES*/
+
+/*FOOTER*/
+footer{
+    font-family: 'Montserrat';
+    color:var(--light);
+    background: var(--dark)
+}
+.footer-wrapper{
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+    /* topo | direita | inferior | esquerda */
+    padding: 2em 5em 0 0 5em;
+}
+
+
+
+footer .footer-logo{
+    width: 50vw;
+    min-width: 50px;
+    max-width: 10px;
+    align-items: center;
+}
+footer .footer-logo img{
+    padding: 2em 0 2em 0;
+    max-width: 30%;
+    min-width: 144px;
+    ;
+}
+
+
+.footer-txt{
+    font-family: 'montserrat';
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 0.8em;
+    text-align: justify;
+    /* topo | direita | inferior | esquerda */
+    margin: 5em;
+}
+/*FOOTER*/
+/*COPYRIGHT*/
+.copyright{
+    background-color: var(--dark);
+    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding:2em 2em;
+    border-top: solid 1px #eeeeec;
+}
+/*COPYRIGHT*/
